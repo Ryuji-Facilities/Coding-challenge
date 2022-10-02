@@ -1,4 +1,4 @@
 # Contrib-here
----
-Added Sub Branch for development purposes
-Please Contribute Wisely. Don't be Spammy
+
+Please Contribute Wisely. Don't be Spammy<br>
+Please read [CONTRIBUTING.md](https://github.com/Ryuji-Facility/Coding-challenge/blob/main/CONTRIBUTING.md) for more details
