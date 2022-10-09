@@ -17,5 +17,3 @@ function selectionSort(arr: number []):number [] {
     }
     return arr;
 }
-
-console.log(selectionSort([1,2,5,4,2,4,2,3,4]));
