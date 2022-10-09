@@ -17,3 +17,5 @@ function selectionSort(arr: number []):number [] {
     }
     return arr;
 }
+
+console.log(selectionSort([9,3,2,6,5,12,53,64,23,456,235,87,23,5,235,666,34,7,67]));
