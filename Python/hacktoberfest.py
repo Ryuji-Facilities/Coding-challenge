@@ -1,3 +1,5 @@
-for i in range(0,1001):
-    p = str(i)
+i = input("No of loop>> ")
+for g in range(0,i):
+    p = str(g)
     print(p+'''. hacktoberfest 2022''')
+
