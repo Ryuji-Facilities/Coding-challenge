@@ -73,7 +73,7 @@ void makeTable(vector<int>& numbers, double width) {
         if(pos != numbers.size()) {
             freq = 0;
             temp2 = temp1 + (static_cast<int>(ceil(width)) - 1);
-            median = (temp1+temp2)/2;
+            median = (static_cast<double>(temp1+temp2))/2;
             while(true) {
                 if(pos != numbers.size()) {
                     if(numbers[pos] <= temp2) {
@@ -116,7 +116,7 @@ int main()
     cout << "n = " << numbers.size() << "  \n";
     cout << "Range = " << numbers[numbers.size()-1] << " - " << numbers[0] << " = " << numbers[numbers.size()-1]-numbers[0] << "  \n";
     cout << "Number of Classes = 1 + 3.322 * log10(" << numbers.size() << ") = " << 1 + 3.322 * (log(numbers.size())/log(10)) << "  \n";
-    double width = (numbers[numbers.size()-1]-numbers[0])/(1 + 3.322 * (log(numbers.size())/log(10)));
+    double width = (static_cast<double>(numbers[numbers.size()-1]-numbers[0]))/(1 + 3.322 * (log((static_cast<double>(numbers.size())))/log(10)));
     cout << "Width = " << numbers[numbers.size()-1]-numbers[0] << "/" << 1 + 3.322 * (log(numbers.size())/log(10)) << " = " << width << " ~ " << ceil(width) << "  \n";
     cout << endl;
 
